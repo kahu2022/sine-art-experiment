@@ -1,2 +1,2 @@
 # sine-art-experiment
-An interactive sine based animated artwork built utilising p5.js
+An interactive animated sine wave based art that utilizes  p5
