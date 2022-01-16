@@ -1,3 +1,5 @@
+const p5 = require('p5')
+
 let w = window.innerWidth - 40;
 let h = window.innerHeight - 40
 
