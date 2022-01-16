@@ -6,7 +6,7 @@
     "p5": "^1.4.0"
   },
   "scripts": {
-    "npm start": "node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "name": "p5-experiment",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/nikolai-sim/sine-art-experiment/issues"
   },
-  "homepage": "https://github.com/nikolai-sim/sine-art-experiment#readme"
+  "homepage": "https://github.com/nikolai-sim/sine-art-experiment#readme",
+  "engines": {
+    "node": "14.x"
 }
+}
+
