@@ -1,5 +1,6 @@
 let w = window.innerWidth - 40;
-let h = window.innerHeight - 40
+let h = window.innerHeight - 100
+
 
 
 
@@ -8,7 +9,17 @@ function setup () {
     angleMode(DEGREES)
     rectMode (CENTER)
     frameRate()
+
+   
 }
+
+
+document.addEventListener(onresize , () => {
+  console.log('resize')
+  w = window.innerWidth - 40;
+  h = window.innerHeight - 40
+  resizeCanvas()
+})
 
 let rand = Math.floor(Math.random * 256)
 
@@ -58,8 +69,11 @@ function draw () {
         rotate(sin(frameCount / i) * 3)
     }
 
-    
+
 
 }
 
 
+function windowResized() {
+  resizeCanvas(w, h);
+}

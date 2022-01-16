@@ -2,6 +2,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
+    "kill-port": "^1.6.1",
     "nodemon": "^2.0.15",
     "p5": "^1.4.0"
   },
@@ -26,6 +27,5 @@
   "homepage": "https://github.com/nikolai-sim/sine-art-experiment#readme",
   "engines": {
     "node": "14.x"
+  }
 }
-}
-
